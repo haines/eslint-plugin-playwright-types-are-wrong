@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-playwright-types-are-wrong",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "build": "tsc",
+    "test": "attw --from-npm eslint-plugin-playwright"
+  },
+  "dependencies": {
+    "@arethetypeswrong/cli": "^0.16.4",
+    "@tsconfig/node22": "^22.0.0",
+    "eslint-plugin-playwright": "^2.0.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  }
+}
